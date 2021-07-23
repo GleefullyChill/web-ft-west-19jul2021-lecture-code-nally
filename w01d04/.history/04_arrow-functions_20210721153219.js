@@ -1,3 +1,4 @@
+
 // advantages of arrow functions
 // 1. no need for the "function" word
 // 2. single argument no need for parens
@@ -10,18 +11,22 @@
 // };
 
 const runMyFunction = function(callback) {
-  callback('Monkey Fuzz!');
+  // console.log(callback.toString());
+  callback('Elise');
 };
 
-runMyFunction( arg1 => console.log(arg1) );
+runMyFunction((arg1) => {
+  console.log(arg1);
+  // more stuff
+});
 
 const sayHello = name => `hello there ${name}`;
 
-const result = sayHello('Tommy!');
-console.log('Result:',result);
+const result = sayHello('Elise');
+console.log(result);
 
-// // function() {}
-// // () => {}
+// function() {}
+// () => {}
 
-// // if (true) console.log('hello');
+// if (true) console.log('hello');
 

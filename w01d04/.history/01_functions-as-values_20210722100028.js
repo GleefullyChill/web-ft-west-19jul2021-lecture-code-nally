@@ -4,8 +4,6 @@
 //   return output;
 // }
 
-let age = 50;
-
 const sayHello = function(string) {
   const output = `hello there ${string}`;
   console.log('output:',output);
@@ -24,13 +22,10 @@ const addTwo = function(num) {
   return num + 2;
 };
 
-const myFuncs = [addTwo, sayHello];
+// const myFuncs = [addTwo, sayHello];
 
 // const result = myFuncs[0](5);
-// console.log('result:', result);
-
-console.log('sayHello:',sayHello.toString());
-
+// console.log('result', result);
 
 // // console.log('whatever it gave us back:', myOtherVar.toString());
 // // myOtherVar('Carol');

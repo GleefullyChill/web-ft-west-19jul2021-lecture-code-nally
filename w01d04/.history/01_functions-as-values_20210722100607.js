@@ -26,11 +26,8 @@ const addTwo = function(num) {
 
 const myFuncs = [addTwo, sayHello];
 
-// const result = myFuncs[0](5);
-// console.log('result:', result);
-
-console.log('sayHello:',sayHello.toString());
-
+const result = myFuncs[0](5);
+console.log('result:', result);
 
 // // console.log('whatever it gave us back:', myOtherVar.toString());
 // // myOtherVar('Carol');

@@ -16,18 +16,9 @@ const sayHello = function(name) {
   console.log(`hello there ${name}`);
 };
 
-const sayHello2 = function(name) {
-  console.log(`hola!! ${name}`);
-};
-
-
 // const addTwo = function(num) {
 //   console.log(num + 2);
 // };
 
-runMe(sayHello2);
-
-
-
-
+// runMe(sayHello);
 // runMe(addTwo);

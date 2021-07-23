@@ -20,5 +20,5 @@ const mappedArray = ourMap(animalNoises, animalNoise => `only the best animals s
 console.log('animalNoises:',animalNoises);
 console.log('mappedArray:',mappedArray);
 
-// const builtInMap = animalNoises.map( animalNoise => `the animal says ${animalNoise}` );
-// console.log('builtInMap:',builtInMap);
+// const builtInMap = animalNoises.map((animalNoise) => `the animal says ${animalNoise}`);
+// console.log(builtInMap);

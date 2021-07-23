@@ -31,6 +31,7 @@ const myFuncs = [addTwo, sayHello];
 
 console.log('sayHello:',sayHello.toString());
 
+console.log(console.log);
 
 // // console.log('whatever it gave us back:', myOtherVar.toString());
 // // myOtherVar('Carol');

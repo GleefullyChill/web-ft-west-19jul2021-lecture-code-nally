@@ -7,10 +7,10 @@ const forEach = (arr, action) => {
   }
 };
 
+forEach(animalNoises, animalNoise => console.log(`the animal says "${animalNoise}"`));
+
 animalNoises.forEach((animalNoise) => {
   console.log(`the animal says "${animalNoise}"`);
 });
-
-forEach(animalNoises, animalNoise => console.log(`the animal says "${animalNoise}"`));
 
 // animalNoises.forEach(whatTheAnimalDoes);

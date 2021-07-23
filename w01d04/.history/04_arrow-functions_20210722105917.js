@@ -5,20 +5,21 @@
 // 4. arrow functions without curly braces automatically return whatever is to the right of the arrow
 // GOTCHA: if you're using the word 'this'
 
-// const sayHello = function(name) {
-//   return `hello there ${name}`;
-// };
-
-const runMyFunction = function(callback) {
-  callback('Monkey Fuzz!');
+const sayHello = function(name) {
+  return `hello there ${name}`;
 };
 
-runMyFunction( arg1 => console.log(arg1) );
+const runMyFunction = function(callback) {
+  // console.log(callback.toString());
+  callback('Elise');
+};
 
-const sayHello = name => `hello there ${name}`;
+runMyFunction((arg1) => console.log(arg1));
 
-const result = sayHello('Tommy!');
-console.log('Result:',result);
+// const sayHello = name => `hello there ${name}`;
+
+// const result = sayHello('Elise');
+// console.log(result);
 
 // // function() {}
 // // () => {}

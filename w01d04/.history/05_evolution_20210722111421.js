@@ -13,4 +13,5 @@ animalNoises.forEach((animalNoise) => {
 
 forEach(animalNoises, animalNoise => console.log(`the animal says "${animalNoise}"`));
 
+
 // animalNoises.forEach(whatTheAnimalDoes);

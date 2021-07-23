@@ -25,7 +25,7 @@ const sayHello2 = function(name) {
 //   console.log(num + 2);
 // };
 
-runMe(sayHello2);
+runMe(sayHello);
 
 
 

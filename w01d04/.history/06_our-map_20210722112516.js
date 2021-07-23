@@ -15,10 +15,12 @@ const ourMap = (arr, callback) => {
 
 const animalNoises = ['Oink', 'Moo', 'Meow', 'Bark', 'Oof', 'Nehhhh', 'Boww', 'Haaay', 'Quack'];
 
-const mappedArray = ourMap(animalNoises, animalNoise => `only the best animals say ${animalNoise}`);
+const mappedArray = ourMap(animalNoises, (animalNoise) => {
+  return `only the best animals say ${animalNoise}`;
+});
 
 console.log('animalNoises:',animalNoises);
-console.log('mappedArray:',mappedArray);
+// console.log(mappedArray);
 
-// const builtInMap = animalNoises.map( animalNoise => `the animal says ${animalNoise}` );
-// console.log('builtInMap:',builtInMap);
+// const builtInMap = animalNoises.map((animalNoise) => `the animal says ${animalNoise}`);
+// console.log(builtInMap);

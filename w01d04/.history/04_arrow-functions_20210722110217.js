@@ -17,8 +17,8 @@ runMyFunction( arg1 => console.log(arg1) );
 
 const sayHello = name => `hello there ${name}`;
 
-const result = sayHello('Tommy!');
-console.log('Result:',result);
+// const result = sayHello('Elise');
+// console.log(result);
 
 // // function() {}
 // // () => {}

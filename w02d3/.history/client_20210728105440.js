@@ -15,7 +15,3 @@ client.on('connect',()=>{
 client.on('data',(message)=>{
   console.log(`server sent: ${message}`);
 });
-
-process.stdin.on('data',(message)=>{
-  client.write(message);
-});

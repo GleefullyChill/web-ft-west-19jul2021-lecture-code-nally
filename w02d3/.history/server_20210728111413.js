@@ -16,8 +16,7 @@ server.listen(port, function(){
 });
 
 server.on('connection', (client)=>{
-  const stringRepClient = client.toString();
-  console.log(`Client is connected: ${{client}}`,client);
+  console.log(`Client is connected.`);
 
   // add the current client to the list of connected clients.
   connectClients.push(client);
@@ -26,8 +25,6 @@ server.on('connection', (client)=>{
 
   client.on('data', (message)=>{
     console.log(`Message Received From Client:${message}`);
-    broadcast(message);
   });
 
 });
-

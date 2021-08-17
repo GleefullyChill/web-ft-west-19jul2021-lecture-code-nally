@@ -1,0 +1,40 @@
+user( 1 ,name@example.com,$hjh$fdfd$8978fd78fd78)
+user( 2 ,name2@example.com,$hjh$fdfd$8978fd78fd78)
+
+blog( 1 ,'how to win the internet','this quick brown fox etc.',1)
+blog( 2 ,'how to win the web','this quick brown turtle',1)
+
+
+users                                       
+----------------
+id           SERIAL
+email        varchar(255)
+passwordhash char(64)
+type         char(64)   ['enduser', 'administrator', 'department head', ....]
+
+users_blogs                        user_id   |   blog_id
+-----------                        ---------------------
+user_id INTEGER                        1           1
+blog_id INTEGER                        1           2
+id SERIAL                              2           1
+
+
+blogs
+----------------------
+id         SERIAL
+title      varchar(64)
+body       text
+topic_id   INTEGER
+
+
+
+topics
+-----------
+id
+name_en
+name_fr
+name_es
+
+'Weather', 'News', etc.
+
+
